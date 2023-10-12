@@ -15,5 +15,19 @@ console.log(items.keys)
 function greet(name){
     console.log("hey there "+name)
 }
+{
+    let name = "gg"
+    console.log(name)
+}
 
-greet("ding ding")
+greet("doo dingus")
+
+
+const item = {
+    "har" : true,
+    "bad": 43,
+    45 : 44,
+    "meena" : "dia",
+    "duck":"fuck"
+}
+console.log(item["har"])
