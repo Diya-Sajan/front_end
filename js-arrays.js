@@ -42,10 +42,15 @@ newnum.sort() //sorts alphabetically. to sort in order, refer use of compare fun
 console.log(newnum)
 
 let compare = (a,b) =>{
-    return a-b
+    return b-a //descending order
 }
 newnum.sort(compare)//this is us calling a compare function which we define where we compare the numbers and return true or false based on which it does the sorting, so if we want accending then a-b and b-a for descending. 
 console.log(newnum)
 newnum.reverse() // to reverse the order of the numbers
 console.log(newnum)
 
+newnum.splice(0,6,1,2,3,4,5) //(starting pos, no. of elements to remove, all the elements to be added in its place seperated with commas)
+console.log(newnum)
+
+console.log(newnum.slice(0,8))
+console.log(newnum.slice(15))
