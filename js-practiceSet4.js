@@ -22,7 +22,7 @@ for (let i of ab){
     }
 }
 console.log(ab)
-console.log(parseInt(num))
+console.log(Number.parseInt(num))
 
 //question 5
 name1[4] = "d";
