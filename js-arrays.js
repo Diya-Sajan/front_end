@@ -55,4 +55,4 @@ console.log(newnum)
 console.log(newnum.slice(0,8))
 console.log(newnum.slice(15))
 
-console.log("i am not sone this is some confusion clearing process lemme live pls")
+console.log("i am not done this is some confusion clearing process lemme live pls")
