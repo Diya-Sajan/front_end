@@ -2,7 +2,7 @@
 
 //lets try to do random things using random things and stuff
 
-let num = [1,2,3,0,4,5,6,7,7,9,10];
+let num = [1,2,3,0,4,5,6,7,7,9,10,11,12,13,14,17,16,19,23];
 num.sort();
 console.log(num);
 
