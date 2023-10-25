@@ -1,4 +1,4 @@
-let marks = [71,82,67,"89",91]
+let marks = [71,82,67,"23",89,91]
 console.log(marks)
 console.log(typeof(marks))
 marks [5] = 44

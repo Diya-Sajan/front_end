@@ -8,4 +8,4 @@ num.forEach((i)=>{
     console.log(i*i)
 })
 
- 
+ //i need to do more. ugh. ugh. ugh. 
