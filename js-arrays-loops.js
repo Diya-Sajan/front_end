@@ -29,7 +29,7 @@ a2 = arr2.filter((a)=>{
 console.log(a2)
 
 //reduce returns a single value, ie it reduces an array into one single balue
-let arr3 = ['d','i','y','a']
+let arr3 = ['d','i','y','a',' ','2','3']
 let a3= arr3.reduce((h1,h2)=>{
     return h1+h2
 })
