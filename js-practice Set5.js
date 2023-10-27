@@ -6,3 +6,5 @@ for (let i=1; i<= nu1;i++){
     ar1.push(x)
 }
 console.log(ar1)
+
+//question 2
