@@ -1,0 +1,15 @@
+h1{
+    color:green;
+}
+
+body{
+    background-color:cornsilk;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    
+    /*same thing*/
+    font:normal 16px Verdana, Geneva, sans-serif;
+
+    line-height: 1.6em;
+}
