@@ -1,13 +1,13 @@
-let marks = [71,82,67,"23",89,91]
+let marks = [71,82,67,"23",289,91]
 console.log(marks)
 console.log(typeof(marks))
 marks [5] = 44
 console.log(marks.length )
 console.log("this is the aray " )
 
-// for (let i=0;i<= marks.length;i++){
-//     console.log(marks[i])
-// }
+for (let i=0;i<= marks.length;i++){
+    console.log(marks[i])
+}
 
 let num = [10,2,4,3,2]
 
