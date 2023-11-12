@@ -9,7 +9,7 @@ for (let i=0;i<= marks.length;i++){
     console.log(marks[i])
 }
 
-let num = [10,2,4,3,2]
+let num = [1,2,4,3,2]
 
 let b = num.toString()
 console.log(b)
