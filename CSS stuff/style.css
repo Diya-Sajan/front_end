@@ -1,9 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 h1{
-    color:green;
+    color:#4e0707;
+    padding-bottom:10px;
 }
 
 body{
-    background-color:cornsilk;
+    background-color:#ffcccb;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -12,4 +18,20 @@ body{
     font:normal 16px Verdana, Geneva, sans-serif;
 
     line-height: 1.6em;
+}
+.container{
+    width:85%;
+    margin: auto;
+    padding-top:20px;
+
+}
+.box-1{
+    background-color: #460000;
+    color:#fff;
+    border-right:3px #1b0000 solid;
+    border-bottom:3px #1b0000 solid;
+
+    padding: 15px;
+
+
 }
