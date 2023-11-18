@@ -51,15 +51,14 @@ body{
 }
 
 .categories{
-    margin:40px;
-    padding:10px;
-    margin-left:40px;
+    width:85%;
+    margin: auto;
 }
 .categories h2{
     padding-bottom:20px;
     text-transform: uppercase;
 }
 .categories ul{
-    padding-left:20px;
-    
+    padding-left:10px;
+
 }
