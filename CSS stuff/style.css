@@ -19,6 +19,22 @@ body{
 
     line-height: 1.6em;
 }
+
+a{
+    text-decoration:none;
+    color: #1b0000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color: black;
+}
+
+
 .container{
     width:85%;
     margin: auto;
@@ -53,12 +69,14 @@ body{
 .categories{
     width:85%;
     margin: auto;
+    border:3px dashed #ccc;
 }
 .categories h2{
-    padding-bottom:20px;
-    text-transform: uppercase;
+    padding:20px;
+    text-align:center;
+    
 }
 .categories ul{
-    padding-left:10px;
-
+    padding-left:10%
 }
+
