@@ -30,10 +30,13 @@ a:hover{
 a:active{
     color: green;
 }
-a:visited{
-    color: black;
-}
 
+.button{
+    background: #333;
+    color:#fff;
+    padding:10px 15px;
+    
+}
 
 .container{
     width:85%;
@@ -64,12 +67,12 @@ a:visited{
     border:3px #1b0000 dotted;
     padding: 15px;
     margin: 20px 0;
+
 }
 
 .categories{
-    width:85%;
     margin: auto;
-    border:3px dashed #ccc;
+    border:3px dashed #2f0303;
 }
 .categories h2{
     padding:20px;
@@ -77,6 +80,25 @@ a:visited{
     
 }
 .categories ul{
-    padding-left:10%
+    padding: 0 20px;
+    list-style:none;
 }
 
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333;
+
+}
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom:15px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"],.my-form textarea{
+    padding:8px;
+    width:100%;
+}
