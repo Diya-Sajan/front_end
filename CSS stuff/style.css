@@ -139,20 +139,43 @@ a:active{
     margin:30px;
     width:600px;
     height:500px;
-    border:1px solid blue;
+    border:1px solid black;
     position: relative;
+    background-image: url('images/bg-image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
 
 }
+
 .p-box h1{
     position:absolute;
     top:200px;
     left:100px;
     text-decoration: none;
+    color: aliceblue;
 }
 .p-box h2{
     position:absolute;
     bottom:200px;
-    right:230px;
+    right:130px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+    color: aliceblue;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+.my-list li:nth-child(even){
+    background: yellow;
 }
